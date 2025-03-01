@@ -1,0 +1,12 @@
+{
+  "name": "claude-wire",
+  "version": "0.0.1",
+  "description": "Intercept request for logging and rerouting to other LLMs",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ingo Eichhorst",
+  "license": "MIT"
+}
