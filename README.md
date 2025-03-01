@@ -4,11 +4,11 @@ A specialized network monitoring tool designed to intercept and log API requests
 
 ## Features
 
-🔍 Captures all network traffic from Claude Coder, including HTTP, WebSocket, and SSE connections
-📝 Logs complete request and response data without truncation
-🔄 Handles streaming connections with special care to maintain functionality
-🔀 Foundation for redirecting Claude Coder requests to alternative models (Mistral, Llama, etc.)
-🛠️ Works with the obfuscated Claude Coder code without modifying it
+- 🔍 Captures all network traffic from Claude Coder, including HTTP, WebSocket, and SSE connections
+- 📝 Logs complete request and response data without truncation
+- 🔄 Handles streaming connections with special care to maintain functionality
+- 🔀 Foundation for redirecting Claude Coder requests to alternative models (Mistral, Llama, etc.)
+- 🛠️ Works with the obfuscated Claude Coder code without modifying it
 
 ## Installation
 
@@ -24,16 +24,16 @@ There are no dependencies to install - the monitor uses only Node.js built-in mo
 ## Quick Start
 
 0. Find the location of claude-coder javascript file:
-  - `npm root -g` 
-  - apend: "/@anthropic-ai/claude-code/cli.mjs"
-  - It gives you the path, like: /usr/local/lib/node_modules/@anthropic-ai/claude-code/cli.mjs
+   - `npm root -g` 
+   - apend: "/@anthropic-ai/claude-code/cli.mjs"
+   - It gives you the path, like: /usr/local/lib/node_modules/@anthropic-ai/claude-code/cli.mjs
 
 1. Find the location of claude wire:
-  - `pwd`
-  - It gives you the path, append index.js
-  - Like: /Users/me/claude-wire/index.js
+   - `pwd`
+   - It gives you the path, append index.js
+   - Like: /Users/me/claude-wire/index.js
 
-2. Navigate to the repo you want to investigate as usual
+2. Navigate to the repo you want to use in you claude coder session - as usual
 
 3. Start your Node.js application with the monitor:
 
